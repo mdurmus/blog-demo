@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-6nfjvov+bo^w&9le9dthyxn)ck=8+$0yk9&81+$=5+3i*hs8s+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-mdurmus-blog-demo-z4bvor6edf.us1.codeanyapp.com','.herokuapp.com']
+ALLOWED_HOSTS = ['8000-mdurmus-blogdemo-fskywovdl15.ws-eu108.gitpod.io','.herokuapp.com']
 
 
 # Application definition
@@ -134,5 +134,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.codeanyapp.com",
-    "https://*.herokuapp.com"
+    "https://*.herokuapp.com",
+    'https://8000-mdurmus-blogdemo-fskywovdl15.ws-eu108.gitpod.io'
 ]
