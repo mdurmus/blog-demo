@@ -3,8 +3,6 @@ from django.views import generic
 from .models import Post
 
 # Create your views here.
-
-# Create your views here.
 class PostList(generic.ListView):
     # model = Post Bütün datayi göster demek bu satir ile 
     # asagidaki iki satir ayni isi yapiyor.
