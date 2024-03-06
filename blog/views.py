@@ -4,7 +4,6 @@ from .models import Post
 
 # Create your views here.
 class PostList(generic.ListView):
-    # model = Post Bütün datayi göster demek bu satir ile 
-    # asagidaki iki satir ayni isi yapiyor.
-    queryset = Post.objects.all()
+    queryset = Post.objects.all() # bütün veriyi gösteriyor
+    # queryset = Post.objects.filter(author=1)
     template_name = "post_list.html"
