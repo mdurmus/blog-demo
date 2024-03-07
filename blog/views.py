@@ -7,4 +7,4 @@ class PostList(generic.ListView):
     queryset = Post.objects.all() # bütün veriyi gösteriyor
     # queryset = Post.objects.filter(author=1)
     template_name = "blog/index.html"
-    paginate_by=8
+    paginate_by=3
