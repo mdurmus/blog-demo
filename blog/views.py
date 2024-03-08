@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.views import generic
 from .models import Post
 
@@ -8,6 +8,7 @@ class PostList(generic.ListView):
     # queryset = Post.objects.filter(author=1)
     template_name = "blog/index.html"
     paginate_by=3
+
 
 def post_detail(request, slug):
     """
