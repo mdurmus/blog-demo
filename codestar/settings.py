@@ -17,6 +17,9 @@ import dj_database_url
 if os.path.isfile('env.py'):
     import env
 
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = False
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
@@ -29,8 +32,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-6nfjvov+bo^w&9le9dthyxn)ck=8+$0yk9&81+$=5+3i*hs8s+'
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+
 
 ALLOWED_HOSTS = ['8000-mdurmus-blogdemo-fskywovdl15.ws-eu108.gitpod.io','.herokuapp.com']
 
