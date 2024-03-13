@@ -31,8 +31,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = 'django-insecure-6nfjvov+bo^w&9le9dthyxn)ck=8+$0yk9&81+$=5+3i*hs8s+'
 
 
-
-ALLOWED_HOSTS = ['8000-mdurmus-blogdemo-fskywovdl15.ws-eu108.gitpod.io','.herokuapp.com']
+ALLOWED_HOSTS = ['8000-mdurmus-blogdemo-fskywovdl15.ws-eu109.gitpod.io','.herokuapp.com']
 
 
 # Application definition
